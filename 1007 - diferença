@@ -1,0 +1,11 @@
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+
+prod_ab = A * B
+prod_cd = C * D
+
+diferenca = prod_ab - prod_cd
+
+print("DIFERENCA = {}".format(diferenca))
