@@ -1,0 +1,9 @@
+nome = str(input())
+salario = float(input())
+tot_vendas = float(input())
+
+comissao = (tot_vendas / 100) * 15
+
+total = salario + comissao
+
+print("TOTAL = R$ {:.2f}".format(total))
