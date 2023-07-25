@@ -1,0 +1,11 @@
+valor = int(input())
+
+hora = valor // 60**2
+valor = valor - hora * 60**2
+
+minuto = valor // 60
+valor = valor - minuto*60
+
+segundo = valor
+
+print("{}:{}:{}".format(hora, minuto, segundo))
