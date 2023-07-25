@@ -1,0 +1,8 @@
+tempoviagem = int(input())
+velocidademedia = int(input())
+
+distancia = (velocidademedia * tempoviagem)
+
+litros = distancia / 12
+
+print("{:.3f}".format(litros))
